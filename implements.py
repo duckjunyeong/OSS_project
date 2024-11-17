@@ -36,8 +36,8 @@ class Block(Basic):
         pygame.draw.rect(surface, self.color, self.rect)
     
     def collide(self, blocks): 
-        pass
-
+        self.alive = False;
+        blocks.remove(self);
 
 class Paddle(Basic):
     def __init__(self):
@@ -66,7 +66,13 @@ class Ball(Basic):
         pygame.draw.ellipse(surface, self.color, self.rect)
 
     def collide_block(self, blocks: list):
-        pass
+         for block in blocks:
+            if self.rect.colliderect(block.rect):
+                if (self.rect.centerx >= block.rect.right | self.rect.centerx <= block.rect.left):
+                    self.dir = 180 - self.dir + random.randint(-5, 5)
+                else:
+                    self.dir = -self.dir + random.randint(-5, 5)
+                block.collide(blocks)
 
 
     def collide_paddle(self, paddle: Paddle) -> None:
@@ -74,8 +80,15 @@ class Ball(Basic):
             self.dir = 360 - self.dir + random.randint(-5, 5)
 
     def hit_wall(self):
-        pass
+         if self.rect.right >= 590:
+            self.dir = 180 - self.dir + random.randint(-5, 5)
+         if self.rect.left <= 10:
+            self.dir = 180 - self.dir + random.randint(-5, 5)
+         if self.rect.top <= 10:
+            self.dir = -self.dir + random.randint(-5, 5)
 
     
     def alive(self):
-      pass
+       if self.rect.bottom >= 790:
+            return False
+       return True
