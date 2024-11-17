@@ -89,4 +89,6 @@ class Ball(Basic):
 
     
     def alive(self):
-      pass
+       if self.rect.bottom >= 790:
+            return False
+       return True
