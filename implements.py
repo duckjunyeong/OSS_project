@@ -66,7 +66,13 @@ class Ball(Basic):
         pygame.draw.ellipse(surface, self.color, self.rect)
 
     def collide_block(self, blocks: list):
-        pass
+         for block in blocks:
+            if self.rect.colliderect(block.rect):
+                if (self.rect.centerx >= block.rect.right | self.rect.centerx <= block.rect.left):
+                    self.dir = 180 - self.dir + random.randint(-5, 5)
+                else:
+                    self.dir = -self.dir + random.randint(-5, 5)
+                block.collide(blocks)
 
 
     def collide_paddle(self, paddle: Paddle) -> None:
