@@ -80,7 +80,12 @@ class Ball(Basic):
             self.dir = 360 - self.dir + random.randint(-5, 5)
 
     def hit_wall(self):
-        pass
+         if self.rect.right >= 590:
+            self.dir = 180 - self.dir + random.randint(-5, 5)
+         if self.rect.left <= 10:
+            self.dir = 180 - self.dir + random.randint(-5, 5)
+         if self.rect.top <= 10:
+            self.dir = -self.dir + random.randint(-5, 5)
 
     
     def alive(self):
