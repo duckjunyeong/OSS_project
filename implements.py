@@ -36,8 +36,8 @@ class Block(Basic):
         pygame.draw.rect(surface, self.color, self.rect)
     
     def collide(self, blocks): 
-        pass
-
+        self.alive = False;
+        blocks.remove(self);
 
 class Paddle(Basic):
     def __init__(self):
