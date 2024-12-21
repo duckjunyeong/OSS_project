@@ -9,6 +9,8 @@
 
 - 벽돌을 맞출 때마다 ✨ 포인트를 획득합니다.
 
+![image2](https://github.com/user-attachments/assets/b7d9b868-02eb-49ab-8ff4-d6185f08480e)
+
 - 벽돌을 맞출 때마다 20%의 확률로 아이템이 화면 상단에서 떨어집니다.
 
 
