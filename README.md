@@ -11,6 +11,10 @@
 
 - 벽돌을 맞출 때마다 20%의 확률로 아이템이 화면 상단에서 떨어집니다.
 
+
+![image](https://github.com/user-attachments/assets/f5cc3a90-9b2d-464f-bfbc-1b8ee0173cc2)
+
+
 - 
 
 
