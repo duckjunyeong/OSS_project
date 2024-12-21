@@ -1,24 +1,22 @@
 # 💁🏻‍♂️ 게임 소개: 벽돌깨기 🧱
 
 **벽돌깨기**는 공을 튕겨 모든 벽돌을 깨는 🕹️ 고전 아케이드 게임입니다! 🎉
-![게임 스크린샷](https://github.com/user-attachments/assets/68ce271c-e1af-4bde-8ab2-c01908444029)
 
 🎯 **게임 기능:**
 
-- **Paddle**을 좌우로 움직여 ↕️ 튕겨져 나오는 공을 받아치세요.
-
-- 벽돌을 맞출 때마다 ✨ 포인트를 획득합니다.
-
-![image2](https://github.com/user-attachments/assets/b7d9b868-02eb-49ab-8ff4-d6185f08480e)
-
-- 벽돌을 맞출 때마다 20%의 확률로 아이템이 화면 상단에서 떨어집니다.
-
-
-![image](https://github.com/user-attachments/assets/f5cc3a90-9b2d-464f-bfbc-1b8ee0173cc2)
-
-
-- 
-
+- **Paddle**을 좌우로 움직여 ↕️ 튕겨져 나오는 공을 받아치세요. 
+<table>
+  <tr>
+    <th>기본 게임 플레이</th>
+    <th>점수 획득</th>
+    <th>아이템 생성</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/68ce271c-e1af-4bde-8ab2-c01908444029" width="250"></td>
+    <td><img src="https://github.com/user-attachments/assets/31ea7b5a-5e2e-4155-96f1-fe536dec943a" width="250"></td>
+    <td><img src="https://github.com/user-attachments/assets/f5cc3a90-9b2d-464f-bfbc-1b8ee0173cc2" width="250"></td>
+  </tr>
+</table>
 
 🎯 **게임 방법:**
 
