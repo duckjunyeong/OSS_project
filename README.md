@@ -10,11 +10,13 @@
     <th>기본 게임 플레이</th>
     <th>점수 획득</th>
     <th>아이템 생성</th>
+    <th>게임 종료</th>
   </tr>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/68ce271c-e1af-4bde-8ab2-c01908444029" width="250"></td>
     <td><img src="https://github.com/user-attachments/assets/31ea7b5a-5e2e-4155-96f1-fe536dec943a" width="250"></td>
     <td><img src="https://github.com/user-attachments/assets/f5cc3a90-9b2d-464f-bfbc-1b8ee0173cc2" width="250"></td>
+    <td><img src="https://github.com/user-attachments/assets/97ed60dd-78ce-465a-a86a-0e458f5b4c41" width="250"></td>
   </tr>
 </table>
 
