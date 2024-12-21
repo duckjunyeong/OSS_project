@@ -23,6 +23,7 @@ center_x = display_dimension[0] / 2
 center_y = display_dimension[1] / 2
 
 
+
 # Setting for paddle
 paddle_color = (242, 242, 0)
 paddle_pos = (center_x, display_dimension[1] - 100)
@@ -38,7 +39,13 @@ ball_size = (20, 20)
 
 
 # Setting for items
+red_color = (242, 0, 0)
+blue_color = (0, 0, 242)
+
+item_speed = 10
+item_pos   = (center_x, 50)
 item_size = (20, 20)
+
 one_more_prob = 0.3
 fever_prob = 0.1
 add_score_prob = 0.1
